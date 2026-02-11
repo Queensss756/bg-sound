@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>No Idea For Title</title>
+</head>
+<body>
+
+  <h3>My New Account Is log833</h3>
+  <button onclick="playOnce()">Play</button>
+
+  <audio id="sound">
+    <source src="GET_OUT.m4a" type="audio/mp4">
+  </audio>
+
+  <script>
+    function playOnce() {
+      const audio = document.getElementById("sound");
+      audio.currentTime = 0;
+      audio.play();
+    }
+  </script>
+
+</body>
+</html>
